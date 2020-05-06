@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CounrseActiviti" />
+        <module name="CounrseActsix" />
+        <module name="CounrseDesignFlowable" />
+        <module name="CounrseDesignPatterns" />
+        <module name="CounrseHibernate" />
+        <module name="CounrseJpa" />
+        <module name="CounrseLombok" />
+        <module name="CounrseQuartZ" />
+        <module name="counrseRedis" />
+        <module name="CounrseSecuForJdbc" />
+        <module name="CounrseSso" />
+        <module name="CourseOkta" />
+        <module name="demo" />
+        <module name="myokta" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CounrseActiviti" target="1.8" />
+      <module name="CounrseActsix" target="1.8" />
+      <module name="CounrseDesignFlowable" target="1.8" />
+      <module name="CounrseDesignPatterns" target="1.8" />
+      <module name="CounrseEasyPoi" target="1.8" />
+      <module name="CounrseHibernate" target="1.8" />
+      <module name="CounrseJpa" target="1.8" />
+      <module name="CounrseLombok" target="1.8" />
+      <module name="CounrseOkta" target="1.8" />
+      <module name="CounrseQuartZ" target="1.8" />
+      <module name="counrseRedis" target="1.8" />
+      <module name="CounrseSecu" target="1.8" />
+      <module name="CounrseSecuForJdbc" target="1.8" />
+      <module name="CounrseSso" target="1.8" />
+      <module name="CounrseSsoTest" target="1.8" />
+      <module name="CourseOkta" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="EinvoicePlat" target="1.8" />
+      <module name="myokta" target="1.8" />
+      <module name="scx" target="1.8" />
+      <module name="sso-appa" target="8" />
+      <module name="sso-appb" target="8" />
+      <module name="sso-service" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

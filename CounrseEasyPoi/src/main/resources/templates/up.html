@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="static/js/vue.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+<body>
+
+<!--<div th:text="${data}">
+
+</div>
+
+<tr  th:each="user : ${data.rows}">
+	<td th:text="${user.name}">Onions</td>
+	<td th:text="${user.age}">test@test.com.cn</td>
+	<td th:text="${user.sex}">yes</td>
+	<th th:text="${user.creattime}">状态变量：index</th>
+</tr>-->
+
+
+<div id="box">
+
+    <form action="upload/submit" enctype="multipart/form-data" method="post">
+        <input name="file" type="file"/>
+        <input type="submit" value="提交">
+    </form>
+
+</div>
+
+<div id="box2">
+
+    <a href="../upload/export">下载excel</a>
+
+    <a href="../upload/exportWord">下载word</a>
+
+</div>
+
+
+</body>
+
+<script th:inline="javascript">
+
+    window.onload = function(){
+
+
+    }
+
+</script>
+
+</html>

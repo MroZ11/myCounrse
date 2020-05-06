@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>TaskList</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<h1>
+    Task List
+</h1>
+
+<form th:attr="action='setDailyCalendar'" method="post">
+    <label>StartHour</label>
+    <input name="startHour" placeholder="must 0-23"/>
+    <label>endHour</label>
+    <input name="endHour" placeholder="must 0-23"/>
+    <input type="submit" value="setDailyCalendar" />
+</form>
+
+<table border="1">
+    <tr>
+
+        <th>jobName</th>
+        <th>jobClass</th>
+        <th>jobDescription</th>
+        <th>triggerName</th>
+        <th>triggerGroup</th>
+        <th>triggerStartTime</th>
+        <th>triggerEndTime</th>
+        <th>triggerPreviousFireTime</th>
+        <th>triggerNextFireTime</th>
+        <th>triggerDescription</th>
+        <th>triggerCronExpression</th>
+        <th>calendarName</th>
+        <th>calendarDesc</th>
+        <th>triggerStatus</th>
+        <th>handler</th>
+    </tr>
+    <tr th:each="task : ${taskList}">
+        <td th:text="${task.jobName}"></td>
+        <td th:text="${task.jobClass}"></td>
+        <td th:text="${task.jobDescription}"></td>
+        <th th:text="${task.triggerName}"></th>
+        <th th:text="${task.triggerGroup}"></th>
+        <th th:text="${#dates.format(task.triggerStartTime, 'yyyy-MM-dd HH:mm:ss')}"></th>
+        <th th:text="${#dates.format(task.triggerEndTime, 'yyyy-MM-dd HH:mm:ss')}"></th>
+        <th th:text="${#dates.format(task.triggerPreviousFireTime, 'yyyy-MM-dd HH:mm:ss')}"></th>
+        <th th:text="${#dates.format(task.triggerNextFireTime, 'yyyy-MM-dd HH:mm:ss')}"></th>
+        <th th:text="${task.triggerDescription}"></th>
+        <th th:text="${task.triggerCronExpression}"></th>
+        <th th:text="${task.calendarName}"></th>
+        <th th:text="${task.calendarDesc}"></th>
+        <th th:text="${task.triggerStatus}"></th>
+        <th>
+            <form th:attr="action=${'parse/'+task.jobName}" method="post">
+                <input type="submit" value="parse" />
+            </form>
+            <form th:attr="action=${'resume/'+task.jobName}" method="post">
+                <input type="submit" value="resume" />
+            </form>
+            <form th:attr="action=${'runnow/'+task.jobName}" method="post">
+                <input type="submit" value="runnow" />
+            </form>
+            <form th:attr="action=${'delete/'+task.jobName}" method="post">
+                <input type="submit" value="delete" />
+            </form>
+        </th>
+    </tr>
+
+
+</table>
+
+
+</body>
+</html>

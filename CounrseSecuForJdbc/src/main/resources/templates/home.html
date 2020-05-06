@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title>我的</title>
+</head>
+<body>
+    登陆成功进入主页<br>
+    欢迎<span sec:authentication="name"></span>
+    <p>角色:<span sec:authentication="principal.authorities"></span>
+    <a href="/login/index?out">退出登录</a>
+</body>
+</html>

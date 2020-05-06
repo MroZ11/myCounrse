@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CounrseActiviti:war">
+    <output-path>$PROJECT_DIR$/CounrseActiviti/target</output-path>
+    <root id="archive" name="counreactiviti-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CounrseActiviti:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>流程</title>
+</head>
+<body>
+
+<div>
+    <h1>流程模板</h1>
+    <a href="act/model/create">新增流程定义</a>
+    <table border="1">
+        <tr>
+            <th>模板id</th>
+            <th>模板名称</th>
+            <th>key</th>
+            <th>部署id</th>
+            <th>操作</th>
+        </tr>
+
+
+        <tr th:each="model : ${modelList}">
+            <td th:text="${model.id}">id</td>
+            <td th:text="${model.name}">name</td>
+            <td th:text="${model.key}">key</td>
+            <th th:text="${model.deploymentId}">部署id</th>
+            <td>
+                <a th:href="@{'act/model/'+${model.id}+'/update'}">修改</a>
+                <a th:href="@{'act/model/'+${model.id}+'/deploy'}">部署</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+<div>
+    <h1>已部署流程定义</h1>
+    <table border="1">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>key</th>
+            <th>操作</th>
+        </tr>
+
+        <tr th:each="proDe : ${proDeList}">
+            <td th:text="${proDe.id}">id</td>
+            <td th:text="${proDe.name}">name</td>
+            <td th:text="${proDe.key}">key</td>
+            <td>
+                <a th:href="@{'act/model/'+${proDe.key}+'/start'}">开启新实例</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+<div>
+    <h1>进行中的实例</h1>
+    <table border="1">
+        <tr>
+            <th>实例id</th>
+            <th>实例名</th>
+            <th>流程定义id</th>
+            <th>流程定义名称</th>
+            <th>操作</th>
+        </tr>
+
+
+        <tr th:each="proIns : ${proInsList}">
+            <td th:text="${proIns.id}">id</td>
+            <td th:text="${proIns.name}">name</td>
+            <td th:text="${proIns.processDefinitionId}">id</td>
+            <td th:text="${proIns.processDefinitionName}">name</td>
+            <td>
+                <a th:href="@{'activiti/diagram-viewer/index.html?processDefinitionId='+${proIns.processDefinitionId}+'&processInstanceId='+${proIns.id}}">查看进度图</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+<div>
+    <h1>历史实例</h1>
+    <table border="1">
+        <tr>
+            <th>实例id</th>
+            <th>实例名</th>
+            <th>流程定义id</th>
+            <th>流程定义名称</th>
+            <th>操作</th>
+        </tr>
+
+
+        <tr th:each="his : ${hisList}">
+            <td th:text="${his.id}">id</td>
+            <td th:text="${his.name}">name</td>
+            <td th:text="${his.processDefinitionId}">id</td>
+            <td th:text="${his.processDefinitionName}">name</td>
+            <td>
+                <a th:href="@{'activiti/diagram-viewer/index.html?processDefinitionId='+${his.processDefinitionId}+'&processInstanceId='+${his.id}}">查看进度图</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</html>

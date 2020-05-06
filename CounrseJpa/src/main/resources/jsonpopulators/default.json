@@ -1,0 +1,16 @@
+[
+  {
+    "_class": "com.example.testjpa.model.Person",
+    "name": "Mr.Zhang",
+    "age": 18,
+    "meters":[
+      {
+        "_class": "com.example.testjpa.model.Meter",
+        "code":"N1",
+        "type":"NBIOT"
+
+      }
+    ]
+
+  }
+]

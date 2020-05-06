@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseActiviti" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseActsix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseDesignFlowable" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseDesignPatterns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseEasyPoi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseJpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseOkta" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseQuartZ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseSecuForJdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CounrseSso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/counrseRedis" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

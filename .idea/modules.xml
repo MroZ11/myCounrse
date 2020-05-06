@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CounrseActiviti/CounrseActiviti.iml" filepath="$PROJECT_DIR$/CounrseActiviti/CounrseActiviti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseActsix/CounrseActsix.iml" filepath="$PROJECT_DIR$/CounrseActsix/CounrseActsix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseDesignFlowable/CounrseDesignFlowable.iml" filepath="$PROJECT_DIR$/CounrseDesignFlowable/CounrseDesignFlowable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseDesignPatterns/CounrseDesignPatterns.iml" filepath="$PROJECT_DIR$/CounrseDesignPatterns/CounrseDesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseEasyPoi/CounrseEasyPoi.iml" filepath="$PROJECT_DIR$/CounrseEasyPoi/CounrseEasyPoi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseJpa/CounrseJpa.iml" filepath="$PROJECT_DIR$/CounrseJpa/CounrseJpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseLambdas/CounrseLambdas.iml" filepath="$PROJECT_DIR$/CounrseLambdas/CounrseLambdas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseLocalThread/CounrseLocalThread.iml" filepath="$PROJECT_DIR$/CounrseLocalThread/CounrseLocalThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseLombok/CounrseLombok.iml" filepath="$PROJECT_DIR$/CounrseLombok/CounrseLombok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseOptional/CounrseOptional.iml" filepath="$PROJECT_DIR$/CounrseOptional/CounrseOptional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseQuartZ/CounrseQuartZ.iml" filepath="$PROJECT_DIR$/CounrseQuartZ/CounrseQuartZ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseSecuForJdbc/CounrseSecuForJdbc.iml" filepath="$PROJECT_DIR$/CounrseSecuForJdbc/CounrseSecuForJdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseSso/CounrseSso.iml" filepath="$PROJECT_DIR$/CounrseSso/CounrseSso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/counrseRedis/counrseRedis.iml" filepath="$PROJECT_DIR$/counrseRedis/counrseRedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseOkta/myokta.iml" filepath="$PROJECT_DIR$/CounrseOkta/myokta.iml" />
+    </modules>
+  </component>
+</project>
