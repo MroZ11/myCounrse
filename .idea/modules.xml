@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CounrseActiviti/CounrseActiviti.iml" filepath="$PROJECT_DIR$/CounrseActiviti/CounrseActiviti.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CounrseActsix/CounrseActsix.iml" filepath="$PROJECT_DIR$/CounrseActsix/CounrseActsix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CounrseDesignFlowable/CounrseDesignFlowable.iml" filepath="$PROJECT_DIR$/CounrseDesignFlowable/CounrseDesignFlowable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseEasyPoi/CounreseEasyPoi.iml" filepath="$PROJECT_DIR$/CounrseEasyPoi/CounreseEasyPoi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseQuartZ/CounreseQuartZ.iml" filepath="$PROJECT_DIR$/CounrseQuartZ/CounreseQuartZ.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\CounrseActiviti\CounrseActiviti.iml" filepath="E:\IdeaProjects\myCounrse\CounrseActiviti\CounrseActiviti.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\CounrseActsix\CounrseActsix.iml" filepath="E:\IdeaProjects\myCounrse\CounrseActsix\CounrseActsix.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\CounrseDesignFlowable\CounrseDesignFlowable.iml" filepath="E:\IdeaProjects\myCounrse\CounrseDesignFlowable\CounrseDesignFlowable.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounrseDesignPatterns/CounrseDesignPatterns.iml" filepath="$PROJECT_DIR$/CounrseDesignPatterns/CounrseDesignPatterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CounrseEasyPoi/CounrseEasyPoi.iml" filepath="$PROJECT_DIR$/CounrseEasyPoi/CounrseEasyPoi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CounrseJpa/CounrseJpa.iml" filepath="$PROJECT_DIR$/CounrseJpa/CounrseJpa.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\CounrseEasyPoi\CounrseEasyPoi.iml" filepath="E:\IdeaProjects\myCounrse\CounrseEasyPoi\CounrseEasyPoi.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\CounrseJpa\CounrseJpa.iml" filepath="E:\IdeaProjects\myCounrse\CounrseJpa\CounrseJpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounrseLambdas/CounrseLambdas.iml" filepath="$PROJECT_DIR$/CounrseLambdas/CounrseLambdas.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounrseLocalThread/CounrseLocalThread.iml" filepath="$PROJECT_DIR$/CounrseLocalThread/CounrseLocalThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounrseLombok/CounrseLombok.iml" filepath="$PROJECT_DIR$/CounrseLombok/CounrseLombok.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounrseOptional/CounrseOptional.iml" filepath="$PROJECT_DIR$/CounrseOptional/CounrseOptional.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CounrseQuartZ/CounrseQuartZ.iml" filepath="$PROJECT_DIR$/CounrseQuartZ/CounrseQuartZ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CounrseSecuForJdbc/CounrseSecuForJdbc.iml" filepath="$PROJECT_DIR$/CounrseSecuForJdbc/CounrseSecuForJdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CounrseSso/CounrseSso.iml" filepath="$PROJECT_DIR$/CounrseSso/CounrseSso.iml" />
-      <module fileurl="file://$PROJECT_DIR$/counrseRedis/counrseRedis.iml" filepath="$PROJECT_DIR$/counrseRedis/counrseRedis.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\CounrseQuartZ\CounrseQuartZ.iml" filepath="E:\IdeaProjects\myCounrse\CounrseQuartZ\CounrseQuartZ.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\CounrseSecuForJdbc\CounrseSecuForJdbc.iml" filepath="E:\IdeaProjects\myCounrse\CounrseSecuForJdbc\CounrseSecuForJdbc.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\CounrseSso\CounrseSso.iml" filepath="E:\IdeaProjects\myCounrse\CounrseSso\CounrseSso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseActsix/actsix.iml" filepath="$PROJECT_DIR$/CounrseActsix/actsix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/counrseRedis/counrse-redis.iml" filepath="$PROJECT_DIR$/counrseRedis/counrse-redis.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\counrseRedis\counrseRedis.iml" filepath="E:\IdeaProjects\myCounrse\counrseRedis\counrseRedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseSso/counrseSso.iml" filepath="$PROJECT_DIR$/CounrseSso/counrseSso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseSecuForJdbc/counrsesecuforjdbc.iml" filepath="$PROJECT_DIR$/CounrseSecuForJdbc/counrsesecuforjdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseDesignFlowable/flowable.iml" filepath="$PROJECT_DIR$/CounrseDesignFlowable/flowable.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounrseOkta/myokta.iml" filepath="$PROJECT_DIR$/CounrseOkta/myokta.iml" />
+      <module fileurl="file://E:\IdeaProjects\myCounrse\CounrseOkta\myokta.iml" filepath="E:\IdeaProjects\myCounrse\CounrseOkta\myokta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseActiviti/testac.iml" filepath="$PROJECT_DIR$/CounrseActiviti/testac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounrseJpa/testjpa.iml" filepath="$PROJECT_DIR$/CounrseJpa/testjpa.iml" />
     </modules>
   </component>
 </project>

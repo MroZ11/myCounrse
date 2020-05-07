@@ -7,6 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="actsix" />
+        <module name="counrse-redis" />
         <module name="CounrseActiviti" />
         <module name="CounrseActsix" />
         <module name="CounrseDesignFlowable" />
@@ -17,13 +19,21 @@
         <module name="CounrseQuartZ" />
         <module name="counrseRedis" />
         <module name="CounrseSecuForJdbc" />
+        <module name="counrsesecuforjdbc" />
         <module name="CounrseSso" />
         <module name="CourseOkta" />
         <module name="demo" />
+        <module name="demo (2) (com.example)" />
+        <module name="demo (3) (com.zs.testsso)" />
+        <module name="flowable" />
         <module name="myokta" />
+        <module name="testac" />
+        <module name="testjpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="actsix" target="1.8" />
+      <module name="counrse-redis" target="1.8" />
       <module name="CounrseActiviti" target="1.8" />
       <module name="CounrseActsix" target="1.8" />
       <module name="CounrseDesignFlowable" target="1.8" />
@@ -37,16 +47,23 @@
       <module name="counrseRedis" target="1.8" />
       <module name="CounrseSecu" target="1.8" />
       <module name="CounrseSecuForJdbc" target="1.8" />
+      <module name="counrsesecuforjdbc" target="1.8" />
       <module name="CounrseSso" target="1.8" />
       <module name="CounrseSsoTest" target="1.8" />
       <module name="CourseOkta" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="demo (1) (com.zs.easypoitest)" target="1.8" />
+      <module name="demo (2) (com.example)" target="1.8" />
+      <module name="demo (3) (com.zs.testsso)" target="1.8" />
       <module name="EinvoicePlat" target="1.8" />
+      <module name="flowable" target="1.8" />
       <module name="myokta" target="1.8" />
       <module name="scx" target="1.8" />
       <module name="sso-appa" target="8" />
       <module name="sso-appb" target="8" />
       <module name="sso-service" target="8" />
+      <module name="testac" target="1.8" />
+      <module name="testjpa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
