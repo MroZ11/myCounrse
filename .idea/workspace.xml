@@ -1574,7 +1574,7 @@
       <workItem from="1588223804639" duration="7022000" />
       <workItem from="1588239209600" duration="93000" />
       <workItem from="1588742622414" duration="11556000" />
-      <workItem from="1588819145045" duration="3290000" />
+      <workItem from="1588819145045" duration="3300000" />
     </task>
     <task id="LOCAL-00001" summary="增加忽略文件">
       <created>1588820190815</created>
@@ -1646,7 +1646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588822467231</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修改了项目配置文件">
+      <created>1588822482483</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588822482483</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1682,7 +1689,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1038295000" />
+    <option name="totallyTimeSpent" value="1038305000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
