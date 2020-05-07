@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="792bda17-7bea-4304-aeaf-84f11b5d6d73" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_Security_unknown.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_3_0_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_unknown.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_1_4_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseActsix/pom.xml" afterPath="$PROJECT_DIR$/CounrseActsix/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseDesignPatterns/CounrseDesignPatterns.iml" afterPath="$PROJECT_DIR$/CounrseDesignPatterns/CounrseDesignPatterns.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseSso/pom.xml" afterPath="$PROJECT_DIR$/CounrseSso/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/CounrseEasyPoi/target/" />
     <ignored path="$PROJECT_DIR$/CounrseLombok/target/" />
@@ -1593,7 +1587,7 @@
       <workItem from="1588239209600" duration="93000" />
       <workItem from="1588742622414" duration="11556000" />
       <workItem from="1588819145045" duration="5067000" />
-      <workItem from="1588828433524" duration="1800000" />
+      <workItem from="1588828433524" duration="1816000" />
     </task>
     <task id="LOCAL-00001" summary="增加忽略文件">
       <created>1588820190815</created>
@@ -1707,7 +1701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588829684251</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="修改了pom文件">
+      <created>1588830258163</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588830258163</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1743,7 +1744,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1041872000" />
+    <option name="totallyTimeSpent" value="1041888000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
