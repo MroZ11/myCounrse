@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="792bda17-7bea-4304-aeaf-84f11b5d6d73" name="Default" comment="">
+    <list default="true" id="792bda17-7bea-4304-aeaf-84f11b5d6d73" name="Default" comment="配置文件中文乱码问题">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseActiviti/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/CounrseActiviti/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseActsix/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/CounrseActsix/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseEasyPoi/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/CounrseEasyPoi/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseFlowable/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/CounrseFlowable/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseOkta/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/CounrseOkta/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseSecuForJdbc/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/CounrseSecuForJdbc/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CounrseSso/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/CounrseSso/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/CounrseEasyPoi/target/" />
     <ignored path="$PROJECT_DIR$/CounrseLombok/target/" />
@@ -65,33 +72,7 @@
     <favorites_list name="CourseOne" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-              <folding>
-                <element signature="e#14487#14491#0" expanded="true" />
-                <element signature="e#14497#14501#0" expanded="true" />
-                <element signature="e#14580#14584#0" expanded="true" />
-                <element signature="e#14590#14594#0" expanded="true" />
-                <element signature="e#14607#14611#0" expanded="true" />
-                <element signature="e#14687#14691#0" expanded="true" />
-                <element signature="e#14697#14701#0" expanded="true" />
-                <element signature="e#14780#14784#0" expanded="true" />
-                <element signature="e#14790#14794#0" expanded="true" />
-                <element signature="e#14870#14874#0" expanded="true" />
-                <element signature="e#14880#14884#0" expanded="true" />
-                <element signature="e#14961#14965#0" expanded="true" />
-                <element signature="e#14971#14975#0" expanded="true" />
-                <element signature="e#14986#14990#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -173,13 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CounrseDesignPatterns/src/main/java/composite/Test.java" />
-        <option value="$PROJECT_DIR$/CounrseDesignFlowable/src/test/java/com/example/demo/FlowableApplicationTests.java" />
-        <option value="$PROJECT_DIR$/CounrseDesignFlowable/pom.xml" />
-        <option value="$PROJECT_DIR$/CounrseDesignFlowable/src/main/java/com/example/demo/Test.java" />
-        <option value="$PROJECT_DIR$/CounrseDesignFlowable/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/CounrseDesignFlowable/src/main/java/com/example/demo/FlowableApplication.java" />
-        <option value="$PROJECT_DIR$/CounrseDesignFlowable/src/main/java/com/example/demo/MyIdmIdentityService.java" />
         <option value="$PROJECT_DIR$/CounrseEasyPoi/src/main/java/com/zs/easypoitest/HutoolTest.java" />
         <option value="$PROJECT_DIR$/CounrseDesignPatterns/src/main/java/factory/HumanWarrior.java" />
         <option value="$PROJECT_DIR$/CounrseDesignPatterns/src/main/java/factory/Test.java" />
@@ -222,8 +196,15 @@
         <option value="$PROJECT_DIR$/CounrseJpa/src/main/resources/jsonpopulators/default.json" />
         <option value="$PROJECT_DIR$/CounrseJpa/src/main/java/com/example/testjpa/config/MyRepositoryPopulatorConfig.java" />
         <option value="$PROJECT_DIR$/CounrseEasyPoi/pom.xml" />
-        <option value="$PROJECT_DIR$/CounrseJpa/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/CounrseJpa/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/CounrseActiviti/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/CounrseActsix/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/CounrseEasyPoi/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/CounrseFlowable/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/CounrseOkta/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/CounrseSecuForJdbc/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/CounrseSso/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -466,7 +447,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CounrseJpa" />
+              <option name="myItemId" value="CounrseSso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,7 +457,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CounrseJpa" />
+              <option name="myItemId" value="CounrseSso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -490,7 +471,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CounrseJpa" />
+              <option name="myItemId" value="CounrseSso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -499,6 +480,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CourseOne" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CounrseSso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CourseOne" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CounrseSso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".mvn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wrapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,7 +546,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16189758" />
     <property name="project.structure.side.proportion" value="0.47841728" />
@@ -1574,7 +1595,7 @@
       <workItem from="1588223804639" duration="7022000" />
       <workItem from="1588239209600" duration="93000" />
       <workItem from="1588742622414" duration="11556000" />
-      <workItem from="1588819145045" duration="3300000" />
+      <workItem from="1588819145045" duration="4372000" />
     </task>
     <task id="LOCAL-00001" summary="增加忽略文件">
       <created>1588820190815</created>
@@ -1653,7 +1674,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588822482483</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改了项目配置文件">
+      <created>1588822491309</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588822491309</updated>
+    </task>
+    <task id="LOCAL-00013" summary="配置文件中文乱码问题">
+      <created>1588823113691</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588823113691</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1689,7 +1724,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1038305000" />
+    <option name="totallyTimeSpent" value="1039377000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1838,7 +1873,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="增加忽略文件" />
     <MESSAGE value="修改了项目配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了项目配置文件" />
+    <MESSAGE value="配置文件中文乱码问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件中文乱码问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1882,77 +1918,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyMethodProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="179" column="24" lean-forward="true" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="274" column="28" lean-forward="false" selection-start-line="274" selection-start-column="28" selection-end-line="274" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/http/converter/json/JsonbHttpMessageConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/http/converter/json/AbstractJsonHttpMessageConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/http/converter/HttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.1.RELEASE/spring-boot-2.2.1.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="160" column="13" lean-forward="false" selection-start-line="1213" selection-start-column="18" selection-end-line="1213" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CounrseJpa/src/main/java/com/example/testjpa/TestjpaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.6.RELEASE/spring-data-commons-2.2.6.RELEASE.jar!/org/springframework/data/web/ProjectingJackson2HttpMessageConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62-sources.jar!/com/alibaba/fastjson/support/spring/FastJsonHttpMessageConverter4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62-sources.jar!/com/alibaba/fastjson/support/spring/FastJsonHttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="243" column="17" lean-forward="false" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.6.RELEASE/spring-data-commons-2.2.6.RELEASE-sources.jar!/org/springframework/data/web/ProjectingJackson2HttpMessageConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -2228,14 +2193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CounrseJpa/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CounrseFlowable/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2272,22 +2229,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-          <folding>
-            <element signature="e#14487#14491#0" expanded="true" />
-            <element signature="e#14497#14501#0" expanded="true" />
-            <element signature="e#14580#14584#0" expanded="true" />
-            <element signature="e#14590#14594#0" expanded="true" />
-            <element signature="e#14607#14611#0" expanded="true" />
-            <element signature="e#14687#14691#0" expanded="true" />
-            <element signature="e#14697#14701#0" expanded="true" />
-            <element signature="e#14780#14784#0" expanded="true" />
-            <element signature="e#14790#14794#0" expanded="true" />
-            <element signature="e#14870#14874#0" expanded="true" />
-            <element signature="e#14880#14884#0" expanded="true" />
-            <element signature="e#14961#14965#0" expanded="true" />
-            <element signature="e#14971#14975#0" expanded="true" />
-            <element signature="e#14986#14990#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseJpa/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseActiviti/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseActsix/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseEasyPoi/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseFlowable/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseOkta/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseQuartZ/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseRedis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseSecuForJdbc/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounrseSso/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="74" lean-forward="false" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
