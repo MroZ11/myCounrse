@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="792bda17-7bea-4304-aeaf-84f11b5d6d73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/.gitignore" afterPath="$PROJECT_DIR$/CounrseFlowable/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/.mvn/wrapper/MavenWrapperDownloader.java" afterPath="$PROJECT_DIR$/CounrseFlowable/.mvn/wrapper/MavenWrapperDownloader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/CounrseFlowable/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/CounrseFlowable/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/mvnw" afterPath="$PROJECT_DIR$/CounrseFlowable/mvnw" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/mvnw.cmd" afterPath="$PROJECT_DIR$/CounrseFlowable/mvnw.cmd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/pom.xml" afterPath="$PROJECT_DIR$/CounrseFlowable/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/src/main/java/com/example/demo/FlowableApplication.java" afterPath="$PROJECT_DIR$/CounrseFlowable/src/main/java/com/example/demo/FlowableApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/src/main/java/com/example/demo/Test.java" afterPath="$PROJECT_DIR$/CounrseFlowable/src/main/java/com/example/demo/Test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/CounrseFlowable/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CounrseDesignFlowable/src/test/java/com/example/demo/FlowableApplicationTests.java" afterPath="$PROJECT_DIR$/CounrseFlowable/src/test/java/com/example/demo/FlowableApplicationTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/counrseRedis/pom.xml" afterPath="$PROJECT_DIR$/CounrseRedis/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/CounrseEasyPoi/target/" />
     <ignored path="$PROJECT_DIR$/CounrseLombok/target/" />
@@ -79,7 +65,18 @@
     <favorites_list name="CourseOne" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1562,7 +1559,7 @@
       <workItem from="1588223804639" duration="7022000" />
       <workItem from="1588239209600" duration="93000" />
       <workItem from="1588742622414" duration="11556000" />
-      <workItem from="1588819145045" duration="2059000" />
+      <workItem from="1588819145045" duration="2225000" />
     </task>
     <task id="LOCAL-00001" summary="增加忽略文件">
       <created>1588820190815</created>
@@ -1606,7 +1603,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588820532119</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改了项目配置文件">
+      <created>1588821279474</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588821279474</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改了项目配置文件">
+      <created>1588821303706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588821303706</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1642,7 +1653,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1037064000" />
+    <option name="totallyTimeSpent" value="1037230000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1762,7 +1773,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加忽略文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加忽略文件" />
+    <MESSAGE value="修改了项目配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了项目配置文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2194,8 +2206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2090">
-          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="19">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding />
         </state>
       </provider>
