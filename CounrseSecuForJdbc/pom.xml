@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>counrsesecuforjdbc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>counrsesecuforjdbc</name>
+	<name>counrse-secuforjdbc</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>testjpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>testjpa</name>
+	<name>counrse-jpa</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
