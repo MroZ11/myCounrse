@@ -3,9 +3,7 @@ package com.example.testjpa.controller;
 
 import com.example.testjpa.dao.MeterDao;
 import com.example.testjpa.model.Meter;
-import com.jayway.jsonpath.JsonPath;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -51,24 +49,13 @@ public class MeterContorller {
         return Optional.empty();
     }
 
-
     @RequestMapping("/code/{code}")
     @Transactional
     public Object code(@PathVariable("code") String code) {
 
-        try(Stream<Meter> meterStream = meterDao.getByCode(code)) {
+        try (Stream<Meter> meterStream = meterDao.getByCode(code)) {
             return meterStream.toArray();
         }
-    }
-
-    public static void main(String[] args) {
-        String json = "{\"name\": \"张小花\", \"meters\": [{\"code\":\"N1\",\"type\":\"远传\"},{\"code\":\"N2\",\"type\":\"远传\"}]}";
-
-
-        Object read = JsonPath.read(json, "[$.name,'B']");
-
-        System.out.println(read);
-
     }
 
 

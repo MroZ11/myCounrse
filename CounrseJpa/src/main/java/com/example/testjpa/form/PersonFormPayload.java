@@ -1,5 +1,6 @@
 package com.example.testjpa.form;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.data.web.JsonPath;
 import org.springframework.data.web.ProjectedPayload;
 
@@ -14,11 +15,14 @@ import java.util.List;
 @ProjectedPayload
 public interface PersonFormPayload {
 
-    @JsonPath({"$.name"})
+    @JsonPath("$.name")
     @Size(max = 2)
     String getName();
 
     @JsonPath({"$.meters..code"})
     List<String> getMeterCodes();
+
+    //嵌套对象会以当前该path作为根 这里省略了@JsonPath get方法和属性名对应 实际相当于@JsonPath("$.meters")
+    List<MeterFormPayload> getMeters();
 
 }

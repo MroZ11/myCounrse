@@ -57,7 +57,7 @@ public class PerImp implements NamedPerson {
         Student s2 = (Student) enhancer.create();
         s1.read();
         System.out.println("-----");
-        s2.read();
+        s2.relax();
 
     }
 
@@ -77,6 +77,10 @@ public class PerImp implements NamedPerson {
 
         public void read() {
             System.out.println("read");
+        }
+
+        public void relax() {
+            System.out.println("relax");
         }
 
     }

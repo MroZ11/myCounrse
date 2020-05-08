@@ -43,4 +43,6 @@ public interface PersonDao extends JpaRepository<Person, Integer>, QuerydslPredi
                 .first((StringPath path, String value) -> path.containsIgnoreCase(value));
     }
 
+
+
 }

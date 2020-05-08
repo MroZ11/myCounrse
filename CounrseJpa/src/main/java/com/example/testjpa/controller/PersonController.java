@@ -24,7 +24,6 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import javax.validation.Valid;
-import java.security.Principal;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -217,7 +216,14 @@ public class PersonController {
         //使用@Valid或@Validated进行参数校验，@Validated多了一个group分组验证功能
         //
         // e.:  {"name": "张小花", "meters": [{"code":"N1","type":"远传"},{"code":"N2","type":"远传"}]}
-        return String.format("Received name: %s, metercodes: %s", personFormPayload.getName(), personFormPayload.getMeterCodes());
+
+
+        String meters = personFormPayload.getMeters().stream().map(m -> {
+            return "{code:" + m.getCode() + ",meterType:" + m.getMeterType() + "}";
+        }).reduce((s, s2) -> s + "," + s2).get();
+
+
+        return String.format("Received name: %s, metercodes: %s,meters: [%s]", personFormPayload.getName(), personFormPayload.getMeterCodes(), meters);
     }
 
 
