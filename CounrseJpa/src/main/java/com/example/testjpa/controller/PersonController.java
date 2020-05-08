@@ -4,19 +4,18 @@ package com.example.testjpa.controller;
 import com.example.testjpa.dao.PersonDao;
 import com.example.testjpa.dto.PeronWithMeterOnly;
 import com.example.testjpa.dto.PersonDto;
+import com.example.testjpa.form.PersonFormPayload;
 import com.example.testjpa.model.Meter;
 import com.example.testjpa.model.Person;
 import com.example.testjpa.model.Pet;
-import com.example.testjpa.model.QPerson;
 import com.querydsl.core.types.Predicate;
 import org.hibernate.query.criteria.internal.expression.function.LowerFunction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.querydsl.binding.QuerydslPredicate;
-import org.springframework.ui.Model;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -24,10 +23,9 @@ import javax.persistence.EntityManager;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+import javax.validation.Valid;
+import java.security.Principal;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import static org.springframework.data.domain.ExampleMatcher.GenericPropertyMatchers.contains;
@@ -86,7 +84,7 @@ public class PersonController {
         personDao.saveAndFlush(person);
         person.setName("tt");
         personDao.save(person);
-       
+
         return "ok";
     }
 
@@ -116,9 +114,8 @@ public class PersonController {
     public Object list3(@QuerydslPredicate(root = Person.class) Predicate predicate) {
         //QDSL WEB支持
         //https://docs.spring.io/spring-data/data-jpa/docs/current/reference/html/#core.web.type-safe
-        QPerson p = QPerson.person;
-        personDao.findAll(p.id.eq(1));
-
+        //QPerson p = QPerson.person;
+        //personDao.findAll(p.id.eq(1));
         return personDao.findAll(predicate);
     }
 
@@ -199,20 +196,29 @@ public class PersonController {
         return entityManager.createQuery(query).getResultList();
     }
 
-
     @RequestMapping("/procedure")
-    public Object callPlus1InOut(Pageable first) {
+    public Object callPlus1InOut() {
+        //调用存储过程
         Map a = personDao.plus1(1);
         return a;
     }
 
 
-    @RequestMapping("/test")
-    public Object test(Person person) {
-
-        person.setDeleteMark(0);
-
-        return "ok";
+    @RequestMapping("/param")
+    public Object test(@RequestParam MultiValueMap<String, String> parameters) {
+        //使用MultiValueMap接受请求参数
+        //e.: http://127.0.0.1:8080/p/param?id=1&id=2&id=3---->return 1,2,3
+        return Optional.ofNullable(parameters.get("id")).orElse(Arrays.asList("empty")).stream().reduce((s, s2) -> s + "," + s2);
     }
+
+    @RequestMapping("/form")
+    public Object test(@RequestBody @Valid PersonFormPayload personFormPayload) {
+        //使用ProjectedPayload接受请求参数 需要引入json-path包
+        //使用@Valid或@Validated进行参数校验，@Validated多了一个group分组验证功能
+        //
+        // e.:  {"name": "张小花", "meters": [{"code":"N1","type":"远传"},{"code":"N2","type":"远传"}]}
+        return String.format("Received name: %s, metercodes: %s", personFormPayload.getName(), personFormPayload.getMeterCodes());
+    }
+
 
 }
