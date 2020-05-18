@@ -34,7 +34,7 @@ public class Person extends BaseModel {
     //FetchType.LAZY懒加载  如果有多个OneToMany同时急加载  @Fetch(FetchMode.SUBSELECT) 用 in 语句查询
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "PERSON_ID", referencedColumnName = "ID")
-    @JsonIgnoreProperties({"person"})
+    @JsonIgnoreProperties({"person"})//如果是fastjson 可以使用SerializeConfig + SimplePropertyPreFilter实现
     @Fetch(FetchMode.SUBSELECT)
     private List<Meter> meters;
 
