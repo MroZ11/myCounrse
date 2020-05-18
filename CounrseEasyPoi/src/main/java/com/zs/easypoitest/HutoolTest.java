@@ -7,6 +7,7 @@ import cn.hutool.core.date.TimeInterval;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.IoUtil;
 import cn.hutool.core.io.resource.ClassPathResource;
+import cn.hutool.core.io.resource.ResourceUtil;
 import cn.hutool.core.lang.Validator;
 import cn.hutool.core.swing.ClipboardUtil;
 import cn.hutool.core.util.*;
@@ -23,7 +24,6 @@ import sun.font.FontDesignMetrics;
 
 import javax.net.ssl.KeyManagerFactory;
 import javax.net.ssl.SSLSocketFactory;
-import javax.net.ssl.X509ExtendedKeyManager;
 import javax.net.ssl.X509TrustManager;
 import javax.swing.*;
 import java.awt.*;
@@ -201,8 +201,7 @@ public class HutoolTest {
      */
     public static void testImg() {
         TimeInterval timer = DateUtil.timer();//计时器 用来计算代码执行时间等
-
-        String bathPath = "E:\\IdeaProjects\\javaCourse\\CounrseEasyPoi\\src\\main\\resources\\static\\testFile\\";
+        String bathPath = ResourceUtil.getResource("").getPath() + "\\static\\testFile\\";
         String imgPath = bathPath + "1.jpg";
         String pressText = "中国移动";
         float alpha = 0.8f;//透明度 1表示不透明 0 表示全透明
