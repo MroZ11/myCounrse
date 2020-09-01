@@ -78,10 +78,16 @@
 			<version>${querydsl.version}</version>
 		</dependency>
 
-
+		<!--jsonPath -->
 		<dependency>
 			<groupId>com.jayway.jsonpath</groupId>
 			<artifactId>json-path</artifactId>
+		</dependency>
+
+		<!--jpa元数据生成-->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-jpamodelgen</artifactId>
 		</dependency>
 
 

@@ -7,6 +7,7 @@ import com.example.testjpa.dto.PersonDto;
 import com.example.testjpa.form.PersonFormPayload;
 import com.example.testjpa.model.Meter;
 import com.example.testjpa.model.Person;
+import com.example.testjpa.model.Person_;
 import com.example.testjpa.model.Pet;
 import com.querydsl.core.types.Predicate;
 import org.hibernate.query.criteria.internal.expression.function.LowerFunction;
@@ -192,6 +193,18 @@ public class PersonController {
         CriteriaQuery<PersonDto> query = builder.createQuery(PersonDto.class);
         Root<Person> root = query.from(Person.class);
         query.select(builder.construct(PersonDto.class, root.get("name"), root.get("age")));
+        return entityManager.createQuery(query).getResultList();
+    }
+
+    @RequestMapping("/list9")
+    public Object list9() {
+        // 通过元数据 进行类型安全查询 避免魔法值的影响
+        // 生成元数据类型 需引入hibernate-jpamodelgen,通过mvn编译就能生成实体类对应的元数据类
+        CriteriaBuilder builder = entityManager.getCriteriaBuilder();
+        CriteriaQuery<PersonDto> query = builder.createQuery(PersonDto.class);
+        Root<Person> root = query.from(Person.class);
+        query.select(builder.construct(PersonDto.class, root.get(Person_.NAME), root.get(Person_.AGE)));
+        query.where(builder.greaterThan(root.get(Person_.age),18));
         return entityManager.createQuery(query).getResultList();
     }
 
