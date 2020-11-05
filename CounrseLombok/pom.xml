@@ -6,7 +6,11 @@
 
     <groupId>com.zs.lomboktest</groupId>
     <artifactId>lomboktest</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>../CounrseJacob</module>
+    </modules>
     <name>counrse-lombok</name>
 
     <dependencies>

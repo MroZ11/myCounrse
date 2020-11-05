@@ -9,10 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CounrseActiviti" />
         <module name="CounrseActsix" />
-        <module name="CounrseFlowable" />
         <module name="CounrseDesignPatterns" />
+        <module name="CounrseFlowable" />
+        <module name="CounrseJacob" />
         <module name="CounrseJpa" />
-        <module name="CounrseLombok" />
         <module name="CounrseOkta" />
         <module name="CounrseQuartZ" />
         <module name="CounrseRedis" />
@@ -24,9 +24,10 @@
     <bytecodeTargetLevel>
       <module name="CounrseActiviti" target="1.8" />
       <module name="CounrseActsix" target="1.8" />
-      <module name="CounrseFlowable" target="1.8" />
       <module name="CounrseDesignPatterns" target="1.8" />
       <module name="CounrseEasyPoi" target="1.8" />
+      <module name="CounrseFlowable" target="1.8" />
+      <module name="CounrseJacob" target="1.8" />
       <module name="CounrseJpa" target="1.8" />
       <module name="CounrseLombok" target="1.8" />
       <module name="CounrseOkta" target="1.8" />
