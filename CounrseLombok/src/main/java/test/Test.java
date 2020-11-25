@@ -10,11 +10,16 @@ public class Test {
 
         Bird kiwi = Bird.builder().age(2).name("kiwi").build();
 
+        Snake snake = new Snake();
+
+        System.out.println(snake.setAge(18).setName("bai").setSex(0));
+
         swallow.eat();
 
         swallow.sing("kiki");
 
         swallow.flyHign(1);
+
 
     }
 
