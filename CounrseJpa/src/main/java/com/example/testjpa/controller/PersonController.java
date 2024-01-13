@@ -1,15 +1,20 @@
 package com.example.testjpa.controller;
 
 
+import com.example.testjpa.dao.MeterDao;
 import com.example.testjpa.dao.PersonDao;
 import com.example.testjpa.dto.PeronWithMeterOnly;
 import com.example.testjpa.dto.PersonDto;
 import com.example.testjpa.form.PersonFormPayload;
-import com.example.testjpa.model.Meter;
-import com.example.testjpa.model.Person;
-import com.example.testjpa.model.Person_;
-import com.example.testjpa.model.Pet;
+import com.example.testjpa.model.*;
+import com.querydsl.core.support.QueryBase;
+import com.querydsl.core.types.Expression;
 import com.querydsl.core.types.Predicate;
+import com.querydsl.core.types.Projections;
+import com.querydsl.core.types.dsl.BooleanExpression;
+import com.querydsl.jpa.JPAExpressions;
+import com.querydsl.jpa.JPAQueryBase;
+import com.querydsl.jpa.impl.JPAQuery;
 import org.hibernate.query.criteria.internal.expression.function.LowerFunction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
@@ -40,10 +45,13 @@ public class PersonController {
     PersonDao personDao;
     @Resource
     EntityManager entityManager;
+    @Resource
+    MeterDao meterDao;
 
     @RequestMapping("/add")
     @ResponseBody
     public Object add() {
+
         Person person = new Person();
         person.setDeleteMark(0);
         person.setAge(18);
@@ -204,9 +212,54 @@ public class PersonController {
         CriteriaQuery<PersonDto> query = builder.createQuery(PersonDto.class);
         Root<Person> root = query.from(Person.class);
         query.select(builder.construct(PersonDto.class, root.get(Person_.NAME), root.get(Person_.AGE)));
-        query.where(builder.greaterThan(root.get(Person_.age),18));
+        query.where(builder.greaterThan(root.get(Person_.age), 18));
         return entityManager.createQuery(query).getResultList();
     }
+
+    @RequestMapping("/list10")
+    public Object list10() {
+        //QueryDsl查询 一般查询
+        QPerson qPerson = QPerson.person;
+        final Iterable<Person> all = personDao.findAll(
+                qPerson.id.isNotNull()
+        );
+        return all;
+    }
+
+    @RequestMapping("/list11")
+    public Object list11() {
+        //QueryDsl查询 一般查询按多方条件过滤
+        QPerson qPerson = QPerson.person;
+        final Iterable<Person> all = personDao.findAll(
+                qPerson.meters.any().id.eq(1)
+        );
+        return all;
+    }
+
+    @RequestMapping("/list12")
+    public Object list12() {
+        //基于jpaQuery实现更复杂的查询
+        JPAQuery query = new JPAQuery(entityManager);
+        QPerson qPerson = QPerson.person;
+        final JPAQueryBase from = query.select(qPerson.id)
+                .from(qPerson);
+        return from.fetch();
+    }
+
+    @RequestMapping("/list13")
+    public Object list13() {
+        //基于jpaQuery实现更复杂的查询
+        JPAQuery<Person> query = new JPAQuery(entityManager);
+        QPerson qPerson = QPerson.person;
+        QPerson qPerson2 = QPerson.person;
+
+        final JPAQueryBase from = query.from(qPerson)
+                .where(qPerson.meters.size().eq(JPAExpressions.select(qPerson2.meters.size().max()).from(qPerson2));
+        List fetch = from.fetch();
+
+        return fetch;
+    }
+
 
     @RequestMapping("/procedure")
     public Object callPlus1InOut() {

@@ -15,6 +15,8 @@ import java.util.List;
 
 // 发现替换后序列化代理对象有问题 还是用默认配置
 // https://www.oschina.net/question/1172115_2244016?sort=time
+// 我理解的意思是 fastjson作为json工具应该只处理dto这里纯粹的数据体，
+// 像entity（其实在是一个代理对象，若有懒加载数据还没有完全读取）这种应该先转换为dto确认哪些数据是真正需要用到的，再由json工具处理
 /*@Configuration*/
 public class MyWebMvcConfig implements WebMvcConfigurer {
 
