@@ -7,14 +7,15 @@ import com.example.testjpa.dto.PeronWithMeterOnly;
 import com.example.testjpa.dto.PersonDto;
 import com.example.testjpa.form.PersonFormPayload;
 import com.example.testjpa.model.*;
+import com.querydsl.core.Tuple;
 import com.querydsl.core.support.QueryBase;
-import com.querydsl.core.types.Expression;
-import com.querydsl.core.types.Predicate;
-import com.querydsl.core.types.Projections;
+import com.querydsl.core.types.*;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.JPAQueryBase;
+import com.querydsl.jpa.JPQLQuery;
 import com.querydsl.jpa.impl.JPAQuery;
+import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.hibernate.query.criteria.internal.expression.function.LowerFunction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
@@ -251,13 +252,34 @@ public class PersonController {
         //基于jpaQuery实现更复杂的查询
         JPAQuery<Person> query = new JPAQuery(entityManager);
         QPerson qPerson = QPerson.person;
-        QPerson qPerson2 = QPerson.person;
+        QMeter qmeter = QMeter.meter;
 
-        final JPAQueryBase from = query.from(qPerson)
-                .where(qPerson.meters.size().eq(JPAExpressions.select(qPerson2.meters.size().max()).from(qPerson2));
-        List fetch = from.fetch();
+        final JPAQuery from = query.from(qPerson)
+                .leftJoin(qPerson.meters, qmeter)
+                .groupBy(qPerson.id)
+                .orderBy(qmeter.count().desc()).limit(1);
 
-        return fetch;
+        return from.fetch();
+    }
+
+    @RequestMapping("/list14")
+    public Object list14() {
+        //基于jpaQuery实现更复杂的查询
+        JPAQuery<Person> query = new JPAQuery(entityManager);
+        QPerson qPerson = QPerson.person;
+        QMeter qmeter = QMeter.meter;
+        QPerson qPersonBase = QPerson.person;
+        //JPA规则子查询内无法使用limit limit1不会起效 会报错
+        //而且JPA 也不允许 select xx from (sub_query)这写法  需要用原生SQL支持才行
+        final JPQLQuery<Person> from = query.select(qPersonBase).from(qPersonBase).where(
+                qPersonBase.meters.size().eq(
+                        JPAExpressions.select(qmeter.id.count().intValue()).from(qPerson)
+                                .leftJoin(qPerson.meters, qmeter)
+                                .groupBy(qPerson.id)
+                                .orderBy(qmeter.count().desc()).limit(1)
+                )
+        );
+        return from.fetch();
     }
 
 
